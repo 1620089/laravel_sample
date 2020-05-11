@@ -6,9 +6,7 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    //
-}
-// Homeを表示
+    // Homeを表示
     public function getHome(){
       return view('home');
     }
