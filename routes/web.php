@@ -19,3 +19,5 @@
 Route::get('/', 'PagesController@getHome');
 Route::get('/about', 'PagesController@getAbout');
 Route::get('/contact', 'PagesController@getContact');
+//検索機能
+Route::get('paginate', 'SearchController@index')->name('search.index');

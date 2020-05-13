@@ -1,21 +1,10 @@
 
 
-@extends('layouts.app')
-# 例：送信先メールアドレスが変数「$login_user_email」
-Mail::send(array('text' => 'email.message'), 'ビューに渡す配列' , function($message) use ($login_user_email){
-  $message->to($login_user_email)->subject('件名');
-});
-public function user_regist(Request $user){
-  Mail::send(array('text' => 'email.message'), ['user' => $user], function($message){
-  $message->to('test@test.com')->bcc('demo@test.com')->subject('件名');
-});
-
 
 @section('content')
   <h1>お問い合わせ</h1>
   {!! Form::open(['url' => 'contact/submit']) !!}
     <div class="form-group">
-      {{Form::label('name', 'お名前')}}
       {{Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'お名前'])}}
     </div>
     <div class="form-group">
