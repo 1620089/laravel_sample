@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+//a.Controllerクラスを継承
 
 class PagesController extends Controller
 {
@@ -13,7 +14,7 @@ class PagesController extends Controller
 
     // Aboutを表示
     public function getAbout(){
-      return view('about');
+      return ('about');
     }
 
     // Contactを表示

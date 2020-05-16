@@ -16,7 +16,7 @@
     return view('welcome');
 });*/
 
-Route::get('/', 'PagesController@getHome');
+Route::get('/home', 'PagesController@getHome');
 Route::get('/about', 'PagesController@getAbout');
 Route::get('/contact', 'PagesController@getContact');
 //検索機能
