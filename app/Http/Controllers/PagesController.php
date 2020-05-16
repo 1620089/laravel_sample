@@ -14,7 +14,7 @@ class PagesController extends Controller
 
     // Aboutを表示
     public function getAbout(){
-      return ('about');
+      return view('about');
     }
 
     // Contactを表示
