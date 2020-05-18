@@ -540,7 +540,7 @@
         });
     });
     </script>
-   <header class="home">
+   <!<header class="home">
         <div id="logo" class="active">
             <a href="#top">
                 <img src="https://pbs.twimg.com/media/EX9AojcU0AEe4VE?format=jpg&name=240x240">
@@ -578,7 +578,7 @@
         </div>
     </div>
     <div class="cafe-wrapper">
-        <div class="cafe-container fadein">
+        <div class="cafe-container">
             <div class="library button" id="1">
                 <div class="cafe-heading">
                     <h1><span>recommend</span></h1>
@@ -587,74 +587,24 @@
                 <a href="#index">Topへ</a>
             </div>
             <div class="top-library">
-                　<div class="part 1"><a href="1">
+                　<div class="part 1">
+                    <a href="1">
                         <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
                         <div class="comment">
-                            <h3></h3>
-                            <p>エリア</p>
-                            <p>最寄り</p>
-                            <p>予算</p>
-                        </div>
-                    </a></div>
-                <div class="part 2"><a href="#">
-                        <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
-                        <div class="comment">
-                            <h3>カフェの名前</h3>
-                            <p>エリア</p>
-                            <p>最寄り</p>
-                            <p>予算</p>
+                            <tr></tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </div>
                     </a>
                 </div>
-                <div class="part 3"><a href="#">
-                        <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
-                        <div class="comment">
-                            <h3>カフェの名前</h3>
-                            <p>エリア</p>
-                            <p>最寄り</p>
-                            <p>予算</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="under-library">
-                　<div class="part 1"><a href="#">
-                        <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
-                        <div class="comment">
-                            <h3>カフェの名前</h3>
-                            <p>エリア</p>
-                            <p>最寄り</p>
-                            <p>予算</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="part 2"><a href="#">
-                        <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
-                        <div class="comment">
-                            <h3>カフェの名前</h3>
-                            <p>エリア</p>
-                            <p>最寄り</p>
-                            <p>予算</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="part 3"><a href="#">
-                        <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
-                        <div class="comment">
-                            <h3>カフェの名前</h3>
-                            <p>エリア</p>
-                            <p>最寄り</p>
-                            <p>予算</p>　
-                        </div>
-                    </a>
-                </div>
-            </div>
+         </div>
         </div>
-    </div>
-    </div>
+  </div>
+
     <div class="parallax-bg">
     </div>
-    <div class="faq-wrapper fadein" id="2">
+    <div class="faq-wrapper id="2">
         <div class="faq-container">
             <h1>Q&A</h1>
             <ul id="faq-list">
@@ -746,4 +696,5 @@
 });
     </script>
 </body>
-</html>
+</html> 
+-->

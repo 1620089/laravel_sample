@@ -12,6 +12,7 @@ class PagesController extends Controller
       return view('home');
     }
 
+
     // Aboutを表示
     public function getAbout(){
       return view('about');
@@ -21,4 +22,21 @@ class PagesController extends Controller
     public function getContact(){
       return view('contact');
     }
+
+    public function list()
+{
+
+//Cafesから全行を取得
+
+$data=[
+  'records' =>Cafe::all()
+];
+
+return view('home.list',$data);
+
 }
+
+}
+
+use App\Cafe;
+
